@@ -1,0 +1,40 @@
+# Local NewMax / Claude runtime data
+.newmax/
+.claude/settings.local.json
+.playwright-mcp/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*token*
+*cookie*
+*credential*
+*secret*
+
+# Community research outputs and source captures
+*-社区洞察调研报告.md
+*-口碑调研报告.md
+reports/
+exports/
+captures/
+cache/
+samples/
+
+# Generated media and local logs
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pdf
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
